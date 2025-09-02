@@ -106,7 +106,10 @@ import projImg1 from "../assets/img/ERP.png";
 import projImg2 from "../assets/img/pickpack.png";
 import projImg3 from "../assets/img/asset.png";
 import projImg4 from "../assets/img/fluxdb.png";
-import projImg5 from "../assets/img/code.png";
+import projImg5 from "../assets/img/sushi-menu.jpg";
+import projImg6 from "../assets/img/op-poster1.jpg";
+import projImg7 from "../assets/img/op-poster2.jpg";
+import projImg8 from "../assets/img/quick-removal.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -159,12 +162,34 @@ export const Projects = () => {
 
   const projects2 = [
     {
-      title: "Code Forum",
-      description: "Development by NextJs + React, Responsible for both frone-end and back-end",
-      additionalDescription: "Uni Project - March 2024",
+      title: "Sushi Restaurant Menu",
+      description: "For Golden Pearl Restaurant, designed by photoshop",
+      additionalDescription: "Mar 2024",
       imgUrl: projImg5,
       // bigImgUrl: bigImg1,
-    },]
+    },
+    {
+      title: "Sale Poster 1",
+      description: "For Op Beauty Cosmetic Store, designed by photoshop",
+      additionalDescription: "Jan 2025",
+      imgUrl: projImg6,
+      // bigImgUrl: bigImg2,
+    },
+    {
+      title: "Sale Poster 2",
+      description: "For Op Beauty Cosmetic Store, designed by photoshop",
+      additionalDescription: "Feb 2025",
+      imgUrl: projImg7,
+      // bigImgUrl: bigImg3,
+    },
+    {
+      title: "propaganda poster",
+      description: "For Quick Removals Service, designed by photoshop",
+      additionalDescription: "Aug 2025",
+      imgUrl: projImg8,
+      // bigImgUrl: bigImg3,
+    },
+  ];
 
   return (
     <section className="project" id="projects">
@@ -182,10 +207,10 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">UX/UI Design</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Full stack</Nav.Link>
+                      <Nav.Link eventKey="second">Post Design</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Data Analyst</Nav.Link>
+                      <Nav.Link eventKey="third">Full Stack</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
